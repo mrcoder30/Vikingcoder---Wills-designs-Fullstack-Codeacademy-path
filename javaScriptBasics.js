@@ -133,7 +133,7 @@ if(conditon) {
 condition ? block of code : block of code 2
 
 ? seperates condition from possible outcomes
-: seperates both possible results 
+: seperates both possible results, essentially the same as ||
 
 */
 
