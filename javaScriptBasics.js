@@ -26,7 +26,14 @@ console.log(5 - 2) //prints 3 to console
 
 /*String Concatenation 
 You can also add strings. 
+
+can use string interpolation for easier method, must use back ticks `` instead of quotes and ${} to insert variable
+ex. 
+console.log(`this is an example ${variable1}`);
+
 */
+
+
 console.log('Hello' + 'World') // prints helloworld 
 console.log('Hello' + ' World') // prints hello world. Spacing must me manually added to your strings within quotes.
 
@@ -56,3 +63,19 @@ console.log(Math.ceil(43.8)); //Returns the smallest integer greater than or equ
 //Number objects Document link
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number 
 console.log(Number.isInteger(2017));
+
+/* conditionals 
+  if statements are a type of conditional statement that runs if the condition is true
+the layout is
+if (condtion){
+    block of code
+}
+if the condition returns as false the block of code is not executed 
+*/
+if (1 > 0) {
+    console.log("since it is true (1 is greater then 0) this line is printed to the console");
+};
+
+
+
+
