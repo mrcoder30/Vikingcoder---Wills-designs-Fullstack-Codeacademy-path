@@ -17,3 +17,14 @@ console.log('This will print to the console')
   
 console.log(3 + 7) //prints 10 to oonsole
 console.log(5 - 2) //prints 3 to console
+
+/*String Concatenation 
+You can also add strings. 
+*/
+console.log('Hello' + 'World') // prints helloworld 
+console.log('Hello' + ' World') // prints hello world. Spacing must me manually added to your strings within quotes.
+
+/* Properies of strings and the dot operator .
+every string has a proper called length we can retreive this data using the dot operator 
+*/
+console.log('string'.length); // Prints 5 the length of the word string
