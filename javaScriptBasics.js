@@ -119,5 +119,22 @@ the not operator (!)
 - NaN, or Not a Number
 */
 
+/* Ternary Operator
+short hand version of a basic if else statment
+example 
+
+if(conditon) {
+    block of code 
+} else {
+    block of code 2
+}
+ can be reduced using ternary operator such as
+
+condition ? block of code : block of code 2
+
+? seperates condition from possible outcomes
+: seperates both possible results 
+
+*/
 
 
