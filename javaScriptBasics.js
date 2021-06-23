@@ -12,6 +12,12 @@ console.log('This will print to the console')
     Divide: /
     Remainder: %
 
+    if perfomring arithmetic operation on the same variable can shorten using this method *=, /=, +=, -=
+    ex. 
+    var1 = var1 + 2; 
+    can be shortened to 
+    var1 += 2;
+
     This allows you to perform arithmetic in your code
 */
   
