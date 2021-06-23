@@ -28,3 +28,14 @@ console.log('Hello' + ' World') // prints hello world. Spacing must me manually 
 every string has a proper called length we can retreive this data using the dot operator 
 */
 console.log('string'.length); // Prints 5 the length of the word string
+
+/*String methods
+We call, or use, these methods by appending an instance with:
+
+    a period (the dot operator)
+    the name of the method
+    opening and closing parentheses
+
+E.g. 'example string'.methodName(). */
+//Link to string methods
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
