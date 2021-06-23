@@ -39,3 +39,14 @@ We call, or use, these methods by appending an instance with:
 E.g. 'example string'.methodName(). */
 //Link to string methods
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+//Built in Javascript Objects 
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+//Maths functions for more advance arithmetic
+console.log(Math.random()); //prints a random number between 0-1
+console.log(Math.floor(Math.random() * 100)); //generates rndom number mulptiples by 100 and rounds to whole number
+console.log(Math.ceil(43.8)); //Returns the smallest integer greater than or equal to x.
+
+//Number objects Document link
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number 
+console.log(Number.isInteger(2017));
