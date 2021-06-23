@@ -97,7 +97,19 @@ if (1 > 2) { //if this had been true, statement would have printed and the progr
     console.log("this line prints as all previous conditions were evaluated as false")
 }
 
+/* Comparison operators
+Less than: <
+Greater than: >
+Less than or equal to: <=
+Greater than or equal to: >=
+Is equal to: ===
+Is not equal to: !==
 
+Logic operators
+the and operator (&&)
+the or operator (||)
+the not operator (!)
+*/
 
 
 
