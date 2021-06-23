@@ -76,6 +76,29 @@ if (1 > 0) {
     console.log("since it is true (1 is greater then 0) this line is printed to the console");
 };
 
+/* alternatively there is also what is known as an if else statment
+it is similar to an else statement, except in this scenario if the original condition evaluates to false
+then it moves on to the next block of code and checks if it has a second condition, if none is provided then 
+it automatically runs
+example below
+*/
+
+if (1 > 2) {
+    console.log("does not execute since condition evaluates as false");
+} else {
+    console.log("this line does print since the original condition failed");
+}
+//example 2
+if (1 > 2) { //if this had been true, statement would have printed and the program stops, does not continue to check
+    console.log("does not execute since condition evaluates as false");
+} else if (1 > 3) { //if this had been true, statement would have printed and the program stops, does not continue to check
+    console.log("does not execute since second condition evaluates as false too"); 
+} else {
+    console.log("this line prints as all previous conditions were evaluated as false")
+}
+
+
+
 
 
 
